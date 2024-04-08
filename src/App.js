@@ -1,6 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
 import Globe from 'react-globe.gl';
+require('dotenv').config();
+
+const apiKey = process.env.API_KEY;
+
 
 //for searching for a specific coordinates based on a city ////////////////////////////////////////////////////////
 
@@ -31,7 +35,7 @@ import Globe from 'react-globe.gl';
 // }
 
 // // Example usage
-// const apiKey = 'AIzaSyCyyL5p-8hBun5_9ooPzRPJjU0CnN2fkn4';
+// const apiKey = apiKey;
 // //use the city to search when entering in a new city
 // const city = 'New York';
 
