@@ -1,12 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 import Globe from 'react-globe.gl';
-require('dotenv').config();
 
-const apiKey = process.env.API_KEY;
-
-
-//for searching for a specific coordinates based on a city ////////////////////////////////////////////////////////
+// for searching for a specific coordinates based on a city ////////////////////////////////////////////////////////
 
 // function getLatLng(city, apiKey) {
 //   return new Promise((resolve, reject) => {
@@ -35,7 +31,7 @@ const apiKey = process.env.API_KEY;
 // }
 
 // // Example usage
-// const apiKey = apiKey;
+// const apiKey = process.env.REACT_APP_API_KEY;
 // //use the city to search when entering in a new city
 // const city = 'New York';
 
